@@ -1,0 +1,12 @@
+.romiya{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+.title{
+    mix-blend-mode: difference;
+    font-size: 3rem;
+}
