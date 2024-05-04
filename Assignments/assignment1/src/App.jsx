@@ -145,13 +145,13 @@ class App extends React.Component {
       <div className="app">
       <h1>User Profiles</h1>
       <div className="user-list">
-        {this.state.info.map(info => (
-          <Card 
+        {this.state.info.map(info => {
+          return <Card 
           key={info.id}
           user={info.userInfo}
           profile={info.profileInfo}
            />
-        ))}
+  })}
       </div>
     </div>
     )
