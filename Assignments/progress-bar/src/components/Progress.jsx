@@ -8,8 +8,9 @@ class Progress extends React.Component{
                 <div className="progress-bar" style={{width: `${this.props.progress}%`}}>
                     <div className="progress-text">{this.props.progress}%</div>
                 </div>
+                {this.props.error && <p>Error: Progress should be between 0 and 100</p>}
                 <div className='form'>
-                <form className='form-wrapper'>
+                <form onSubmit={this.props.handleClick}>
                     <label>Input Percentage: </label>
                     <input
                     className='input' 
