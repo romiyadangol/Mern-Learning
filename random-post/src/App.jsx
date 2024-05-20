@@ -46,7 +46,7 @@ function App() {
   return (
     <>
     <div className="header">
-        <h1>User ID: {userId}</h1>
+        <h2>User ID: {userId}</h2>
     </div>
       <div className="card-wrapper">
       {error ? (
