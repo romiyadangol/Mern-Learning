@@ -38,20 +38,11 @@ function Root(){
           <form id="search-form" role="search">
             <input
               id="q"
-              aria-label="Search contacts"
               placeholder="Search"
               type="search"
               name="q"
             />
-            <div
-              id="search-spinner"
-              aria-hidden
-              hidden={true}
-            />
-            <div
-              className="sr-only"
-              aria-live="polite"
-            ></div>
+
           </form>
           <form method="post">
             <button type="submit">New</button>
@@ -60,10 +51,10 @@ function Root(){
         <nav>
           <ul>
             <li>
-            <Link to={`contacts/1`}>Your Name</Link>
+            <Link to={`contacts/1`}>Gyaltsen Lama</Link>
             </li>
             <li>
-            <Link to={`contacts/1`}>Your Name</Link>
+            <Link to={`contacts/2`}>Romiya Dangol</Link>
             </li>
           </ul>
         </nav>

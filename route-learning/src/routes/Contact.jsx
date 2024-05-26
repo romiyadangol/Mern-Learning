@@ -12,7 +12,7 @@ function Contact() {
     <div id="contact">
     <div>
       <img
-        key={contact.avatar}
+        // key={contact.avatar}
         src={contact.avatar || null}
       />
     </div>
